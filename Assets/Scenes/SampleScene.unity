@@ -123,6 +123,122 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &31183672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 31183674}
+  - component: {fileID: 31183673}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &31183673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31183672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a55b56ab005dd42aa219080dd5bb7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cenas:
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 45ad7ab4923c52149826e957b5042330, type: 3}
+    texto: 'Sarah: Nossa mr. Johnes voce so sabe reclamar...'
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 81c18cb6eaebcd847ae5a330581f62d2, type: 3}
+    texto: "MR. Johnes: Mas voce tambem n\xE3o faz nada direito"
+    BGsprite: {fileID: 0}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: 
+    BGsprite: {fileID: 0}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 81c18cb6eaebcd847ae5a330581f62d2, type: 3}
+    texto: "Vamos Jasper, deixa esses dois brigando e vamos passear na pra\xE7a"
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 81c18cb6eaebcd847ae5a330581f62d2, type: 3}
+    texto: "Na pra\xE7a cachorros e pequenos animais come\xE7am a rodear os dois"
+    BGsprite: {fileID: 21300000, guid: fd89e429b7d01bc45a7eefaec1289f83, type: 3}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 288ffa84ff45c474e9d0ed37f850b397, type: 3}
+    texto: Viu so, falei que ia ser divertido
+    BGsprite: {fileID: 0}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: "Mas pq voc\xEA est\xE1 chorando?"
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: E U     O D E I O     E L E S
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: "Os animais que estavam ali come\xE7am a se transformar"
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: "Pequenos monstrinhos come\xE7am a surgir e amea\xE7ar os dois"
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: "Quando eles sentem um abra\xE7o aconchegante vindo de Sarah"
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: Os monstros somem, voltando a ser pequenos  animais que se dispersam
+    BGsprite: {fileID: 0}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 13c7ae5bfed15414a84b009020f76577, type: 3}
+    texto: "Eu fiquei com muito medo, que bom que voce esta aqui mam\xE3e"
+    BGsprite: {fileID: 0}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 55fc70476c7eab34292dbd2b33034065, type: 3}
+    texto: "Sarah: N\xE3o saim assim de casa sem avisar nada, pode ser erigoso"
+    BGsprite: {fileID: 0}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 55fc70476c7eab34292dbd2b33034065, type: 3}
+    texto: "Sarah: Vamos voltar pra casa, eu comprei o sorvete preferido de voc\xEAs"
+    BGsprite: {fileID: 0}
+  - anya: 1
+    anyaSprite: {fileID: 21300000, guid: 812bcbad3244fca4aa0ca6ec7e274b55, type: 3}
+    texto: "OBAAAA, vou pegar o mais que voc\xEA jasper"
+    BGsprite: {fileID: 0}
+  - anya: 0
+    anyaSprite: {fileID: 21300000, guid: 812bcbad3244fca4aa0ca6ec7e274b55, type: 3}
+    texto: F I M
+    BGsprite: {fileID: 21300000, guid: b8af4c321fe35cc409a30c15423f8616, type: 3}
+  anya: {fileID: 449002449}
+  BG: {fileID: 125697020}
+  text: {fileID: 2049379099}
+--- !u!4 &31183674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31183672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &55102184
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +305,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &125697020
 GameObject:
@@ -279,7 +395,7 @@ GameObject:
   - component: {fileID: 449002452}
   - component: {fileID: 449002451}
   m_Layer: 5
-  m_Name: Safira
+  m_Name: Anya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +575,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
@@ -570,7 +686,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &976154068
 GameObject:
@@ -667,8 +783,9 @@ RectTransform:
   - {fileID: 125697021}
   - {fileID: 449002450}
   - {fileID: 2049379098}
+  - {fileID: 2143413046}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -710,7 +827,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 2.92, y: -43.88}
+  m_AnchoredPosition: {x: 2.92, y: -43.880005}
   m_SizeDelta: {x: 521.36, y: 65.17}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2049379099
@@ -743,7 +860,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -809,4 +926,110 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049379097}
+  m_CullTransparentMesh: 1
+--- !u!1 &2143413045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143413046}
+  - component: {fileID: 2143413049}
+  - component: {fileID: 2143413048}
+  - component: {fileID: 2143413047}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2143413046
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143413045}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 976154072}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 318}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2143413047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143413045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31183673}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: nextScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &2143413048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143413045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2143413049
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143413045}
   m_CullTransparentMesh: 1
